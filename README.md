@@ -1,2 +1,51 @@
-# json-schema-form-builder
-JSON Schema Form Builder 是一个为开发者、产品原型设计者和内部工具构建者准备的浏览器端小工具。用户可以粘贴一段 JSON 数据，应用会自动分析字段类型、嵌套对象、数组、布尔值和数字，并生成对应的 JSON Schema，同时在中间区域渲染一个可编辑的表单预览。它非常适合快速制作配置表单、后台管理表单、API 原型、低代码工具示例和文档演示。项目不依赖后端，不需要付费服务，打开网页即可使用。作为 GitHub 作品集项目，它展示了类型推断、递归渲染、状态同步和导出能力，后续还能扩展字段编辑器、Schema 校验、UI Schema、表单主题和多语言支持。
+# JSON Schema Form Builder
+
+Paste JSON, infer a schema, preview a form, and export JSON Schema in the browser.
+
+## Features
+
+- Paste any JSON object.
+- Infer a practical JSON Schema.
+- Preview a generated editable form.
+- Export schema as `schema.json`.
+- Runs entirely in the browser.
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Deployment
+
+Build command:
+
+```bash
+npm run build
+```
+
+Publish directory:
+
+```txt
+dist
+```
+
+Deploy to GitHub Pages, Netlify, Vercel, Cloudflare Pages, or any static host.
+
+## License
+
+MIT
